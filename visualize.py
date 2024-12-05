@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 import csv
-
-# Function to visualize request count per endpoint from the CSV file
 def visualize_requests_per_endpoint(csv_file):
     endpoints = []
     counts = []
